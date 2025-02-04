@@ -7,6 +7,6 @@ int main() {
     scanf("%f",&num);
     const PI =3.14;
     area= PI*num*num;
-    printf("Area: %f",area);
+    printf("Area: %.2f",area);
     return 0;
 }
