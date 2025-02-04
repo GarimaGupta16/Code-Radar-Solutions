@@ -3,7 +3,7 @@
 
 
 int main() {
-    int name;
+    char name[100];
     scanf("%s",&name);
     printf("You entered: %s", name);
     return 0;
