@@ -3,6 +3,6 @@
 int main() {
     float f;
     sscanf("%f",&f);
-    printf("%s",f );
+    printf("%f",f );
     return 0;
 }
