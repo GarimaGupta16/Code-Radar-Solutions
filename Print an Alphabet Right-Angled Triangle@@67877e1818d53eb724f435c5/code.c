@@ -6,13 +6,13 @@ char* welcome() {
 
 int main() {
             int n ;
-            char count='A'; 
+            // char count='A'; 
     scanf("%d",&n);
    for(int i=1;i<=n;i++){
     
-    for(int j=1;j<=i;j++){
-        printf("%c ",count);
-        count++;
+    for(char j='A';j<=i;j++){
+        printf("%c ",j);
+        // count++;
     }
     printf("\n");
    }
