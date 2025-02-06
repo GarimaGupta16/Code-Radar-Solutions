@@ -8,7 +8,7 @@ int main() {
     int x= n*n;
     int y= a*a;
     int z= b*b;
-        if(x=y+z || y= x+z || z= x+y){
+        if(x==y+z || y== x+z || z== x+y){
         printf("Valid");
     }
     else{
