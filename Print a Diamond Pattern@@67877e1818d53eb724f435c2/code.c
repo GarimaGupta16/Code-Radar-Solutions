@@ -8,7 +8,7 @@ int main() {
     }
     for(int j=1;j<=i;j++){
         if(i%2==0){
-            continue;
+            break;
         }
         printf("*");
     }
