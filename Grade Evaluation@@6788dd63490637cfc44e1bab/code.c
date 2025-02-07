@@ -5,17 +5,20 @@ int main() {
    if(a=='A'){
     printf("Excellent");
    }
-   else if(a=='b'){
+   else if(a=='B'){
     printf("Good");
    }
-   else if(a=='c'){
+   else if(a=='C'){
     printf("Average");
    }
-   else if(a=='d'){
+   else if(a=='D'){
     printf("Below Average");
    }
-   else{
+   else if(a=='F'){
     printf("Fail");
+   }
+   else{
+    printf("Invalid grade");
    }
     return 0;
 }
