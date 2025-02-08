@@ -2,7 +2,7 @@
 
 
 int main() {
-    char a;
+    int a;
     scanf("%c",&a);
     for (int i=1;i<=a;i++){
         char count='A';
