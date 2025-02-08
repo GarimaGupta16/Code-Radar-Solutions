@@ -8,7 +8,7 @@ int main() {
         char count='A';
         for(int j=1;j<=i;j++){
             printf("%c ",count);
-            count++
+            count++;
 
         }
     }
