@@ -10,6 +10,7 @@ int main() {
             printf("%c ",count);
             count++;
         }
+        printf("\n");
     }
     return 0;
 }
