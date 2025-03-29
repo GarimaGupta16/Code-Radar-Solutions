@@ -13,11 +13,11 @@ int main(){
             count++;
 
         }
-       int result =1;
+       
         for(int j=i-1;j>=1;j--){
             
-            printf("%d",result);
-            result++;
+            printf("%d",j);
+      
         }
         printf("\n");
         
