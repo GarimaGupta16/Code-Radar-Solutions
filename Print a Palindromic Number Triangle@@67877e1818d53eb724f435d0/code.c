@@ -13,7 +13,7 @@ int main(){
             count++;
 
         }
-        int count =1;
+       count =1;
         for(int j=i-1;j>=1;j--){
             
             printf("%d",count);
