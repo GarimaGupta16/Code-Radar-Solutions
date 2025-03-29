@@ -19,7 +19,7 @@
 
 #include <stdio.h>
 int main(){
-    int m ;
+    int n ;
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
         char ch ='A';
