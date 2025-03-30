@@ -5,6 +5,6 @@ void fibonacciSeries(int n){
         int temp =a;
         a=b;
         b=a+temp;
-        printf("%d ",a);
+        printf("%d ",temp);
     }
 }
