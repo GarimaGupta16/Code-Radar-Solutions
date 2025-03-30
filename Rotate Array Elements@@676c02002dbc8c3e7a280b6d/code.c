@@ -9,7 +9,7 @@ int main(){
     }
     int k;
     scanf("%d",&k);
-    void rotation(arr,n,k);
+ rotation(arr,n,k);
     return 0;
 }
 void rotation(int arr[], int n , int k){
