@@ -24,7 +24,8 @@ int sort(int arr[] , int n){
             // Swap if the element found is greater than the next element
             if (arr[j] > arr[j+1] ) {
                 temp =1;
-            }else if(arr[j] < arr[j+1] ){
+            }
+            if(arr[j] < arr[j+1] ){
                temp =1;
             }else{
                 return temp =0;
