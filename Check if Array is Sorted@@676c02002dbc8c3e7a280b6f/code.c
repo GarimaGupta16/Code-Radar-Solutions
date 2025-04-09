@@ -8,8 +8,8 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-sort(arr,n);
-if (1){
+
+if (sort(arr,n)){
     printf("Sorted");
 }else{
     printf("Not Sorted");
@@ -17,33 +17,21 @@ if (1){
 
 }
 int sort(int arr[] , int n){
-     int temp;
-    for (int i = 0; i < n-1; i++) {
-        // Last i elements are already in place
-        for (int j = 0; j < n-i-1; j++) {
-            // Swap if the element found is greater than the next element
-            if (arr[j] > arr[j+1] ) {
-                temp =1;
-            }
-          
-            else{
-                return temp =0;
-            }
-        }
- 
-}
-for (int i = 0; i < n-1; i++) {
-        // Last i elements are already in place
-        for (int j = 0; j < n-i-1; j++) {
-            // Swap if the element found is greater than the next element
-            if (arr[j] < arr[j+1] ) {
-                temp =1;
-            }
-          
-            else{
-                return temp =0;
-            }
-        }
-}
-}
+    int ascending=1;
+    int descending=1;
 
+    for(int i=0;i<n;i++){
+        if(arr[i]>arr[i+1]){
+            ascending=0;
+        }
+        if(arr[i]<arr[i+1]){
+            descending =0;
+        }
+    }
+    if(ascending || descending){
+        return 1;
+    }else{
+        return 0;
+    }
+}
+    
