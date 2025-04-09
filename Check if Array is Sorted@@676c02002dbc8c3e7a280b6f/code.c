@@ -24,7 +24,7 @@ int sort(int arr[] , int n){
         if(arr[i]>arr[i+1]){
             ascending=0;
         }
-        if(arr[i]<arr[i+1]){
+       else if(arr[i]<arr[i+1]){
             descending =0;
         }
     }
