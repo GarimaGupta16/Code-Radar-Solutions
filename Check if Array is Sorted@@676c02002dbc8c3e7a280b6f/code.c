@@ -1,5 +1,5 @@
 #include <stdio.h>
-void sort(int arr[], int n);
+int sort(int arr[], int n);
 
 int main(){
     int n ;
