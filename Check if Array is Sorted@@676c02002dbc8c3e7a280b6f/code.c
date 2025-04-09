@@ -9,7 +9,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
 sort(arr,n);
-if (temp==1){
+if (1){
     printf("Sorted")
 }else{
     printf("Not Sorted");
