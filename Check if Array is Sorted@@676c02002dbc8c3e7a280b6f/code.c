@@ -1,6 +1,6 @@
 #include <stdio.h>
 void sort(int arr[], int n);
-void printArray(int arr[],int n);
+
 int main(){
     int n ;
     scanf("%d",&n);
@@ -9,7 +9,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
 sort(arr,n);
-printArray(arr, n);
+
 }
 void sort(int arr[] , int n){
      int temp;
@@ -18,18 +18,13 @@ void sort(int arr[] , int n){
         for (int j = 0; j < n-i-1; j++) {
             // Swap if the element found is greater than the next element
             if (arr[j] > arr[j+1]) {
-                // Swap arr[j] and arr[j+1]
-                temp = arr[j];
-                arr[j] = arr[j+1];
-                arr[j+1] = temp;
+                printf("Sorted");
+            }else{
+                printf("Not Sorted");
             }
         }
  
 }
 }
 
-void printArray(int arr[], int n) {
-    for (int i = 0; i < n; i++)
-        printf("%d ", arr[i]);
-    printf("\n");
-}
+
